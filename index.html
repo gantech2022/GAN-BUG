@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be My Valentine? 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="container">
+    <section class="card intro active" data-step="0">
+      <h1>Hey Beautiful 💕</h1>
+      <img class="hero-gif" src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Cute hearts animation" />
+      <p>
+        I made this tiny love app just for you. I want to ask you something special...
+        but first, a few quick questions 😘
+      </p>
+      <button class="btn next-btn">Start ✨</button>
+    </section>
+
+    <section class="card question" data-step="1">
+      <h2>Question 1</h2>
+      <p>How much do you love surprise dates?</p>
+      <div class="answers" data-answer-group="q1">
+        <button class="btn answer-btn">A little 💗</button>
+        <button class="btn answer-btn">A lot 💖</button>
+        <button class="btn answer-btn">Endless ♾️</button>
+      </div>
+    </section>
+
+    <section class="card question" data-step="2">
+      <h2>Question 2</h2>
+      <p>What sounds perfect for our Valentine vibe?</p>
+      <div class="answers" data-answer-group="q2">
+        <button class="btn answer-btn">Movie + cuddles 🍿</button>
+        <button class="btn answer-btn">Dinner date 🍝</button>
+        <button class="btn answer-btn">Long walk + ice cream 🍦</button>
+      </div>
+    </section>
+
+    <section class="card question" data-step="3">
+      <h2>Question 3</h2>
+      <p>Should I keep spoiling you with more cute surprises?</p>
+      <div class="answers" data-answer-group="q3">
+        <button class="btn answer-btn">Yes please 🥰</button>
+        <button class="btn answer-btn">Obviously 😌</button>
+        <button class="btn answer-btn">Forever and always 💘</button>
+      </div>
+    </section>
+
+    <section class="card finale" data-step="4">
+      <h2>Okay last one... the big one 💌</h2>
+      <img class="hero-gif" src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" alt="Romantic flower gif" />
+      <p class="big-question">Will you be my Valentine? 💍❤️</p>
+      <div class="answers final-answers">
+        <button id="yesBtn" class="btn yes">YESSS 💞</button>
+        <button id="noBtn" class="btn no">No 🙈</button>
+      </div>
+      <p class="hint">(Try pressing No... if you can 😏)</p>
+    </section>
+
+    <section class="card success" data-step="5">
+      <h2>YAAAY! You made me the happiest 💓</h2>
+      <img class="hero-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2Q2NTRzMWQ4d2RlY2tpMDY2aTRnY3MwdmN3M24xOTZmZnE1c2xpNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sr8jYZVVsCmxddga8w/giphy.gif" alt="Happy dancing hearts gif" />
+      <p>Can’t wait to make this Valentine’s Day magical with you ✨💘</p>
+      <button id="restartBtn" class="btn">Replay 💫</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
